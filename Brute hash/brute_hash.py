@@ -46,7 +46,6 @@ def timer(function):
         print(f'Time {time() - start_time}')
     return wrapper
 
-
 @timer
 def brute(hashes: list[str], hashing_len: int, multiple_threads: bool):
     brute_func = brute_multiple_threads if multiple_threads else brute_one_thread

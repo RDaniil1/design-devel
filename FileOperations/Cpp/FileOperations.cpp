@@ -174,9 +174,6 @@ int main()
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
 
-    std::ios_base::sync_with_stdio(false);
-    std::cin.tie(NULL);
-
     PrintDriveInfo();
     OperateFiles();
     OperateJson();
