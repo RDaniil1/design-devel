@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<note>
+	<to atr="info" atr2="info2" atr3="info3">
+        Tove
+    </to>
+	<from>
+        Jani
+    </from>
+	<heading>
+        Reminder
+    </heading>
+	<body>
+        Don't forget me this weekend!
+    </body>
+</note>
